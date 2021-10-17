@@ -9,8 +9,8 @@ function rotateHeader() {
   } else {
       header.className = 'back'; //裏面のclassを設定
   }
-  //3Dで動かす
-  header.style.transform = 'rotate3D(1,1,1,'+ degree+'deg)';
+  //Y軸で動かす
+  header.style.transform = 'rotateY(0,1,0,'+ degree+'deg)';
 }
 setInterval(rotateHeader, 150);
 //ゆったり回る感じ
