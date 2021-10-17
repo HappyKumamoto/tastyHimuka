@@ -101,7 +101,8 @@ a {
 .input-area{
 writing-mode: initial;
       transform: rotate(90deg);
-      transform-origin: top left;
+      /*transform-origin: top left; */
+      text-orientation: upright;
     }
 
 .click-area{
