@@ -45,8 +45,8 @@ const answer = answerInput.value;
  };
  
  //エンターキーでも機能する
-  /*answerInput.onkeydown = event => {
+  answerInput.onkeydown = event => {
     if (event.keyCode === 13) {
       assessmentButton.onclick();
     }
-  };*/
+  };
