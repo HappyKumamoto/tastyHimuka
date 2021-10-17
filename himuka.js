@@ -10,7 +10,7 @@ function rotateHeader() {
       header.className = 'back'; //裏面のclassを設定
   }
   //Y軸で動かす
-  header.style.transform = 'rotateY(0,1,0,'+ degree+'deg)';
+  header.style.transform = 'rotateY('+ degree+'deg)';
 }
 setInterval(rotateHeader, 150);
 //ゆったり回る感じ
