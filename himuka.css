@@ -1,0 +1,112 @@
+body {
+  text-align: center;
+
+  width: 900px;
+  height: 650px;
+
+  background-image:url(imgs/takachiho.jpeg);
+  background-repeat: no-repeat;
+  background-size: 900px 598px;
+  background-position: center top -60px;
+
+  margin-right: auto;
+  margin-left : auto;
+}
+
+
+.tategaki-wrap{
+    border: 0;
+    margin: 0 auto;
+    width: 900px;
+}
+ 
+.tategaki{
+    text-align: center;
+    /*background: #1E90FF; */
+    padding: 20px;
+    width: 100%;
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode:vertical-rl;
+}
+ 
+h5 {
+    color: lightgray;
+  }
+  
+.face {
+  color: #ebe726d7;
+  /*opacity:0.6   /*空に少し透ける感じ*/
+  }      
+
+.back {
+  color: rgba(150, 247, 210, 0.74);
+  /*opacity:0.5       /*透ける*/
+}
+
+
+button {     /*角を丸く*/
+  padding: 5px 15px;
+  background-color: rgb(213, 235, 90);
+  color: #367749;
+  border-style: 1 white;
+  border-radius:10px 10px 10px 10px;
+}
+
+input {       /*角を丸く*/
+  height: 27px;
+  border-style: none;
+  border-radius:10px 10px 10px 10px;
+}
+
+h3{
+    color:#FDFFFF;
+    position: relative; 
+    left:-60px; 
+}
+
+a {           
+    color:#FDFFFF;   
+   }
+
+
+/*.tategaki-title{
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+ 
+.box{
+    margin-left: 60px;
+}*/
+ 
+ 
+.mixed{
+    -webkit-text-orientation: mixed;
+    text-orientation: mixed;
+}
+ 
+.upright{
+    -webkit-text-orientation: upright;
+    text-orientation: upright;
+}
+ 
+.sideways{
+    -webkit-text-orientation: sideways;
+    text-orientation: sideways;
+}
+
+.input-area{
+writing-mode: initial;
+      transform: rotate(90deg);
+      transform-origin: top left;
+    }
+
+.click-area{
+writing-mode: initial;
+      transform: rotate(90deg);
+      transform-origin: top left;
+     
+}
