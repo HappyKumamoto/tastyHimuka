@@ -35,12 +35,12 @@ h5 {
   }
   
 .face {
-  color: #B6FF01;
+  color: #007700;
   /*opacity:0.6   /*空に少し透ける感じ*/
   }      
 
 .back {
-  color: rgba(150, 247, 210, 0.74);
+  color: #B6FF01;
   /*opacity:0.5       /*透ける*/
 }
 
