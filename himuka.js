@@ -12,9 +12,9 @@ function rotateHeader() {
   //Y軸で動かす
   header.style.transform = 'rotateY('+ degree+'deg)';
 }
-setInterval(rotateHeader, 150);
+setInterval(rotateHeader, 300);
 //ゆったり回る感じ
-//150ミリ秒ごとにrotateHeader関数を実行する
+//300ミリ秒ごとにrotateHeader関数を実行する
 
 
 //回答欄とその下部分
