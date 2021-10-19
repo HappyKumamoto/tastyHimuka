@@ -59,7 +59,7 @@ const answer = answerInput.value;
         <br>九州 みやざきの
         <span style="color:rgb(206, 255, 71); font-size:160%;">名産品と名所</span>
         についての<br>アンケートにお答えください。<br>
-        <a href = "https://secure-dusk-48588.herokuapp.com/applicationForm/tasty-himuka" target="_blank">アンケートはこちら(Heroku)</a>`);
+        <a href = "https://secure-dusk-48588.herokuapp.com/applicationForm/tasty-himuka" target="_blank">アンケートはこちら*Heroku*</a>`);
         //<a href = "https://secret-shore-96743.herokuapp.com/enquetes/tasty-red" target="_blank">
         //アンケートはこちら(Heroku)</a> </p>`);
        }else{
